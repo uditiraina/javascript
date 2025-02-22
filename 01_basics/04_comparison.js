@@ -9,6 +9,14 @@ console.log(2!=1);
 // console.log("2">1); // predictible result nahi aata hai jab bhi hum do alag data types ko compare krte hai 
 // console.log("02">1);
 
-console.log(null>0);
+/* console.log(null>0);
 console.log(null ==0);
 console.log(null>=0);
+
+console.log(undefined == 0);
+console.log(undefined > 0 );
+console.log(undefined < 0);
+*/
+// ===
+
+console.log("2"===2);
