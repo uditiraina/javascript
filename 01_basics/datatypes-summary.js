@@ -37,7 +37,30 @@ const myFunction = function(){
     console.log("hello world");
 }
 
-console.log(typeof outsideTemp);
-console.log(typeof scoreValue);
+console.log(typeof heros);
+console.log(typeof myObj);
+console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non Primitive)
+
+let myName ="uditi raina"
+let anotherName = myName
+anotherName = "chaiaurcode"
+console.log(anotherName)
+console.log(myName)
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email="uditiraina@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
